@@ -1,6 +1,8 @@
 # phpGulp2
-Commands for CI execution
 
+#pre-requisite - composer installation on machine
+
+Commands for CI execution
 npm install 
 npm install -g gulp
 gulp ci
