@@ -1,0 +1,1 @@
+module.exports=function(){var e={all:["./coverage/**/*.css","./*.css"]};return e};

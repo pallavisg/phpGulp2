@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1473079204">
+  <project timestamp="1473079204">
+    <package name="SebastianBergmann\Money">
+      <file name="/home/pallavise/GULP/new_test/src/Currency.php">
+        <class name="Currency" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="18" coveredelements="18"/>
+        </class>
+        <line num="1167" type="method" name="__construct" crap="2" count="3"/>
+        <line num="1169" type="stmt" count="3"/>
+        <line num="1170" type="stmt" count="1"/>
+        <line num="1172" type="stmt" count="1"/>
+        <line num="1175" type="stmt" count="2"/>
+        <line num="1176" type="stmt" count="2"/>
+        <line num="1183" type="method" name="getCurrencyCode" crap="1" count="1"/>
+        <line num="1185" type="stmt" count="1"/>
+        <line num="1194" type="method" name="getDefaultFractionDigits" crap="1" count="1"/>
+        <line num="1196" type="stmt" count="1"/>
+        <line num="1204" type="method" name="getDisplayName" crap="1" count="1"/>
+        <line num="1206" type="stmt" count="1"/>
+        <line num="1214" type="method" name="getNumericCode" crap="1" count="1"/>
+        <line num="1216" type="stmt" count="1"/>
+        <line num="1224" type="method" name="getSubUnit" crap="1" count="1"/>
+        <line num="1226" type="stmt" count="1"/>
+        <line num="1234" type="method" name="__toString" crap="1" count="1"/>
+        <line num="1236" type="stmt" count="1"/>
+        <metrics loc="1238" ncloc="1143" classes="1" methods="7" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="18" coveredelements="18"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/IntlFormatter.php">
+        <class name="IntlFormatter" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
+        </class>
+        <line num="66" type="method" name="__construct" crap="2" count="0"/>
+        <line num="67" type="stmt" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="69" type="stmt" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="80" type="method" name="format" crap="2" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="82" type="stmt" count="0"/>
+        <line num="83" type="stmt" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="85" type="stmt" count="0"/>
+        <line num="86" type="stmt" count="0"/>
+        <metrics loc="87" ncloc="25" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="0" elements="14" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/Money.php">
+        <class name="Money" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="20" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="68" coveredstatements="68" elements="88" coveredelements="88"/>
+        </class>
+        <line num="84" type="method" name="__construct" crap="2" count="3"/>
+        <line num="86" type="stmt" count="3"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="2"/>
+        <line num="91" type="stmt" count="2"/>
+        <line num="92" type="stmt" count="2"/>
+        <line num="99" type="method" name="getAmount" crap="1" count="1"/>
+        <line num="101" type="stmt" count="1"/>
+        <line num="110" type="method" name="getCurrency" crap="1" count="1"/>
+        <line num="112" type="stmt" count="1"/>
+        <line num="124" type="method" name="add" crap="1" count="3"/>
+        <line num="126" type="stmt" count="3"/>
+        <line num="128" type="stmt" count="2"/>
+        <line num="130" type="stmt" count="2"/>
+        <line num="132" type="stmt" count="1"/>
+        <line num="144" type="method" name="subtract" crap="1" count="3"/>
+        <line num="146" type="stmt" count="3"/>
+        <line num="148" type="stmt" count="2"/>
+        <line num="150" type="stmt" count="2"/>
+        <line num="152" type="stmt" count="1"/>
+        <line num="161" type="method" name="negate" crap="1" count="1"/>
+        <line num="163" type="stmt" count="1"/>
+        <line num="175" type="method" name="multiply" crap="2" count="3"/>
+        <line num="177" type="stmt" count="3"/>
+        <line num="178" type="stmt" count="1"/>
+        <line num="180" type="stmt" count="1"/>
+        <line num="183" type="stmt" count="2"/>
+        <line num="184" type="stmt" count="2"/>
+        <line num="185" type="stmt" count="2"/>
+        <line num="186" type="stmt" count="2"/>
+        <line num="187" type="stmt" count="1"/>
+        <line num="198" type="method" name="allocateToTargets" crap="4" count="2"/>
+        <line num="200" type="stmt" count="2"/>
+        <line num="201" type="stmt" count="1"/>
+        <line num="204" type="stmt" count="1"/>
+        <line num="205" type="stmt" count="1"/>
+        <line num="206" type="stmt" count="1"/>
+        <line num="207" type="stmt" count="1"/>
+        <line num="209" type="stmt" count="1"/>
+        <line num="210" type="stmt" count="1"/>
+        <line num="211" type="stmt" count="1"/>
+        <line num="213" type="stmt" count="1"/>
+        <line num="214" type="stmt" count="1"/>
+        <line num="215" type="stmt" count="1"/>
+        <line num="217" type="stmt" count="1"/>
+        <line num="227" type="method" name="allocateByRatios" crap="3" count="1"/>
+        <line num="230" type="stmt" count="1"/>
+        <line num="231" type="stmt" count="1"/>
+        <line num="232" type="stmt" count="1"/>
+        <line num="234" type="stmt" count="1"/>
+        <line num="235" type="stmt" count="1"/>
+        <line num="236" type="stmt" count="1"/>
+        <line num="237" type="stmt" count="1"/>
+        <line num="238" type="stmt" count="1"/>
+        <line num="240" type="stmt" count="1"/>
+        <line num="241" type="stmt" count="1"/>
+        <line num="242" type="stmt" count="1"/>
+        <line num="244" type="stmt" count="1"/>
+        <line num="258" type="method" name="compareTo" crap="3" count="2"/>
+        <line num="260" type="stmt" count="2"/>
+        <line num="262" type="stmt" count="1"/>
+        <line num="263" type="stmt" count="1"/>
+        <line num="266" type="stmt" count="1"/>
+        <line num="276" type="method" name="equals" crap="1" count="1"/>
+        <line num="278" type="stmt" count="1"/>
+        <line num="289" type="method" name="greaterThan" crap="1" count="1"/>
+        <line num="291" type="stmt" count="1"/>
+        <line num="302" type="method" name="greaterThanOrEqual" crap="2" count="1"/>
+        <line num="304" type="stmt" count="1"/>
+        <line num="315" type="method" name="lessThan" crap="1" count="1"/>
+        <line num="317" type="stmt" count="1"/>
+        <line num="328" type="method" name="lessThanOrEqual" crap="2" count="1"/>
+        <line num="330" type="stmt" count="1"/>
+        <line num="338" type="method" name="assertSameCurrency" crap="2" count="13"/>
+        <line num="340" type="stmt" count="13"/>
+        <line num="341" type="stmt" count="3"/>
+        <line num="343" type="stmt" count="10"/>
+        <line num="352" type="method" name="assertIsInteger" crap="2" count="2"/>
+        <line num="354" type="stmt" count="2"/>
+        <line num="355" type="stmt" count="2"/>
+        <line num="366" type="method" name="assertInsideIntegerBounds" crap="2" count="1"/>
+        <line num="368" type="stmt" count="1"/>
+        <line num="369" type="stmt" count="1"/>
+        <line num="380" type="method" name="castToInt" crap="1" count="3"/>
+        <line num="382" type="stmt" count="3"/>
+        <line num="384" type="stmt" count="2"/>
+        <line num="391" type="method" name="newMoney" crap="1" count="6"/>
+        <line num="393" type="stmt" count="6"/>
+        <metrics loc="395" ncloc="184" classes="1" methods="20" coveredmethods="20" conditionals="0" coveredconditionals="0" statements="68" coveredstatements="68" elements="88" coveredelements="88"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/AED.php">
+        <class name="AED" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/AFN.php">
+        <class name="AFN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/ALL.php">
+        <class name="ALL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/AMD.php">
+        <class name="AMD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/ANG.php">
+        <class name="ANG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/AOA.php">
+        <class name="AOA" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/ARS.php">
+        <class name="ARS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/AUD.php">
+        <class name="AUD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/AWG.php">
+        <class name="AWG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/AZN.php">
+        <class name="AZN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BAM.php">
+        <class name="BAM" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BBD.php">
+        <class name="BBD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BDT.php">
+        <class name="BDT" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BGN.php">
+        <class name="BGN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BHD.php">
+        <class name="BHD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BIF.php">
+        <class name="BIF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BMD.php">
+        <class name="BMD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BND.php">
+        <class name="BND" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BOB.php">
+        <class name="BOB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BOV.php">
+        <class name="BOV" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BRL.php">
+        <class name="BRL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BSD.php">
+        <class name="BSD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BTN.php">
+        <class name="BTN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BWP.php">
+        <class name="BWP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BYR.php">
+        <class name="BYR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/BZD.php">
+        <class name="BZD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CAD.php">
+        <class name="CAD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CDF.php">
+        <class name="CDF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CHE.php">
+        <class name="CHE" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CHF.php">
+        <class name="CHF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CHW.php">
+        <class name="CHW" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CLF.php">
+        <class name="CLF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CLP.php">
+        <class name="CLP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CNY.php">
+        <class name="CNY" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/COP.php">
+        <class name="COP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/COU.php">
+        <class name="COU" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CRC.php">
+        <class name="CRC" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CUC.php">
+        <class name="CUC" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CUP.php">
+        <class name="CUP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CVE.php">
+        <class name="CVE" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/CZK.php">
+        <class name="CZK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/DJF.php">
+        <class name="DJF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/DKK.php">
+        <class name="DKK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/DOP.php">
+        <class name="DOP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/DZD.php">
+        <class name="DZD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/EGP.php">
+        <class name="EGP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/ERN.php">
+        <class name="ERN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/ETB.php">
+        <class name="ETB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/EUR.php">
+        <class name="EUR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/FJD.php">
+        <class name="FJD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/FKP.php">
+        <class name="FKP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/GBP.php">
+        <class name="GBP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/GEL.php">
+        <class name="GEL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/GHS.php">
+        <class name="GHS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/GIP.php">
+        <class name="GIP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/GMD.php">
+        <class name="GMD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/GNF.php">
+        <class name="GNF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/GTQ.php">
+        <class name="GTQ" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/GYD.php">
+        <class name="GYD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/HKD.php">
+        <class name="HKD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/HNL.php">
+        <class name="HNL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/HRK.php">
+        <class name="HRK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/HTG.php">
+        <class name="HTG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/HUF.php">
+        <class name="HUF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/IDR.php">
+        <class name="IDR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/ILS.php">
+        <class name="ILS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/INR.php">
+        <class name="INR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/IQD.php">
+        <class name="IQD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/IRR.php">
+        <class name="IRR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/ISK.php">
+        <class name="ISK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/JMD.php">
+        <class name="JMD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/JOD.php">
+        <class name="JOD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/JPY.php">
+        <class name="JPY" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/KES.php">
+        <class name="KES" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/KGS.php">
+        <class name="KGS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/KHR.php">
+        <class name="KHR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/KMF.php">
+        <class name="KMF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/KPW.php">
+        <class name="KPW" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/KRW.php">
+        <class name="KRW" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/KWD.php">
+        <class name="KWD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/KYD.php">
+        <class name="KYD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/KZT.php">
+        <class name="KZT" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/LAK.php">
+        <class name="LAK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/LBP.php">
+        <class name="LBP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/LKR.php">
+        <class name="LKR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/LRD.php">
+        <class name="LRD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/LSL.php">
+        <class name="LSL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/LTL.php">
+        <class name="LTL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/LVL.php">
+        <class name="LVL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/LYD.php">
+        <class name="LYD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MAD.php">
+        <class name="MAD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MDL.php">
+        <class name="MDL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MGA.php">
+        <class name="MGA" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MKD.php">
+        <class name="MKD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MMK.php">
+        <class name="MMK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MNT.php">
+        <class name="MNT" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MOP.php">
+        <class name="MOP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MRO.php">
+        <class name="MRO" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MUR.php">
+        <class name="MUR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MVR.php">
+        <class name="MVR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MWK.php">
+        <class name="MWK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MXN.php">
+        <class name="MXN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MXV.php">
+        <class name="MXV" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MYR.php">
+        <class name="MYR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/MZN.php">
+        <class name="MZN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/NAD.php">
+        <class name="NAD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/NGN.php">
+        <class name="NGN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/NIO.php">
+        <class name="NIO" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/NOK.php">
+        <class name="NOK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/NPR.php">
+        <class name="NPR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/NZD.php">
+        <class name="NZD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/OMR.php">
+        <class name="OMR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/PAB.php">
+        <class name="PAB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/PEN.php">
+        <class name="PEN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/PGK.php">
+        <class name="PGK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/PHP.php">
+        <class name="PHP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/PKR.php">
+        <class name="PKR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/PLN.php">
+        <class name="PLN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/PYG.php">
+        <class name="PYG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/QAR.php">
+        <class name="QAR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/RON.php">
+        <class name="RON" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/RSD.php">
+        <class name="RSD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/RUB.php">
+        <class name="RUB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/RWF.php">
+        <class name="RWF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SAR.php">
+        <class name="SAR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SBD.php">
+        <class name="SBD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SCR.php">
+        <class name="SCR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SDG.php">
+        <class name="SDG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SEK.php">
+        <class name="SEK" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SGD.php">
+        <class name="SGD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SHP.php">
+        <class name="SHP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SLL.php">
+        <class name="SLL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SOS.php">
+        <class name="SOS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SRD.php">
+        <class name="SRD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SSP.php">
+        <class name="SSP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/STD.php">
+        <class name="STD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SVC.php">
+        <class name="SVC" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SYP.php">
+        <class name="SYP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/SZL.php">
+        <class name="SZL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/THB.php">
+        <class name="THB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/TJS.php">
+        <class name="TJS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/TMT.php">
+        <class name="TMT" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/TND.php">
+        <class name="TND" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/TOP.php">
+        <class name="TOP" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/TTD.php">
+        <class name="TTD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/TWD.php">
+        <class name="TWD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/TZS.php">
+        <class name="TZS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/UAH.php">
+        <class name="UAH" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/UGX.php">
+        <class name="UGX" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/USD.php">
+        <class name="USD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/USN.php">
+        <class name="USN" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/USS.php">
+        <class name="USS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/UYI.php">
+        <class name="UYI" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/UYU.php">
+        <class name="UYU" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/UZS.php">
+        <class name="UZS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/VEF.php">
+        <class name="VEF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/VND.php">
+        <class name="VND" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/VUV.php">
+        <class name="VUV" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/WST.php">
+        <class name="WST" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XAF.php">
+        <class name="XAF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XAG.php">
+        <class name="XAG" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XAU.php">
+        <class name="XAU" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XBA.php">
+        <class name="XBA" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XBB.php">
+        <class name="XBB" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XBC.php">
+        <class name="XBC" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XBD.php">
+        <class name="XBD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XCD.php">
+        <class name="XCD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XDR.php">
+        <class name="XDR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XFU.php">
+        <class name="XFU" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XOF.php">
+        <class name="XOF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XPD.php">
+        <class name="XPD" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XPF.php">
+        <class name="XPF" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XPT.php">
+        <class name="XPT" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XSU.php">
+        <class name="XSU" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XTS.php">
+        <class name="XTS" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XUA.php">
+        <class name="XUA" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/XXX.php">
+        <class name="XXX" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/YER.php">
+        <class name="YER" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/ZAR.php">
+        <class name="ZAR" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/ZMW.php">
+        <class name="ZMW" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/currency/ZWL.php">
+        <class name="ZWL" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="60" ncloc="10" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/exceptions/CurrencyMismatchException.php">
+        <class name="CurrencyMismatchException" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="54" ncloc="6" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/exceptions/InvalidArgumentException.php">
+        <class name="InvalidArgumentException" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="57" ncloc="6" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/home/pallavise/GULP/new_test/src/exceptions/OverflowException.php">
+        <class name="OverflowException" namespace="SebastianBergmann\Money" fullPackage="Money" package="Money">
+          <metrics methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="56" ncloc="6" classes="1" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/home/pallavise/GULP/new_test/src/interfaces/Exception.php">
+      <metrics loc="56" ncloc="6" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/home/pallavise/GULP/new_test/src/interfaces/Formatter.php">
+      <metrics loc="63" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/home/pallavise/GULP/new_test/src/interfaces/error.php">
+      <line num="2" type="stmt" count="0"/>
+      <line num="3" type="stmt" count="0"/>
+      <line num="4" type="stmt" count="0"/>
+      <line num="5" type="stmt" count="0"/>
+      <line num="6" type="stmt" count="0"/>
+      <line num="7" type="stmt" count="0"/>
+      <line num="8" type="stmt" count="0"/>
+      <line num="9" type="stmt" count="0"/>
+      <line num="10" type="stmt" count="0"/>
+      <line num="11" type="stmt" count="0"/>
+      <line num="12" type="stmt" count="0"/>
+      <line num="13" type="stmt" count="0"/>
+      <line num="14" type="stmt" count="0"/>
+      <line num="15" type="stmt" count="0"/>
+      <line num="16" type="stmt" count="0"/>
+      <line num="17" type="stmt" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <line num="19" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="0"/>
+      <line num="21" type="stmt" count="0"/>
+      <line num="22" type="stmt" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="27" type="stmt" count="0"/>
+      <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
+      <line num="30" type="stmt" count="0"/>
+      <line num="31" type="stmt" count="0"/>
+      <line num="32" type="stmt" count="0"/>
+      <line num="33" type="stmt" count="0"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="36" type="stmt" count="0"/>
+      <line num="37" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <line num="41" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
+      <line num="43" type="stmt" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="46" type="stmt" count="0"/>
+      <line num="47" type="stmt" count="0"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="49" type="stmt" count="0"/>
+      <line num="50" type="stmt" count="0"/>
+      <line num="51" type="stmt" count="0"/>
+      <line num="52" type="stmt" count="0"/>
+      <line num="53" type="stmt" count="0"/>
+      <metrics loc="55" ncloc="55" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="52" coveredstatements="0" elements="52" coveredelements="0"/>
+    </file>
+    <metrics files="190" loc="12921" ncloc="3248" classes="187" methods="29" coveredmethods="27" conditionals="0" coveredconditionals="0" statements="143" coveredstatements="79" elements="172" coveredelements="106"/>
+  </project>
+</coverage>

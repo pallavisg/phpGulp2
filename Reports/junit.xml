@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Money" tests="32" assertions="51" failures="0" errors="0" time="0.140646">
+    <testsuite name="SebastianBergmann\Money\CurrencyTest" file="/home/pallavise/GULP/new_test/tests/CurrencyTest.php" tests="8" assertions="8" failures="0" errors="0" time="0.020134">
+      <testcase name="testExceptionIsRaisedForInvalidConstructorArgument" class="SebastianBergmann\Money\CurrencyTest" file="/home/pallavise/GULP/new_test/tests/CurrencyTest.php" line="51" assertions="1" time="0.008320"/>
+      <testcase name="testObjectCanBeConstructedForValidConstructorArgument" class="SebastianBergmann\Money\CurrencyTest" file="/home/pallavise/GULP/new_test/tests/CurrencyTest.php" line="59" assertions="1" time="0.002199"/>
+      <testcase name="testCanBeCastToString" class="SebastianBergmann\Money\CurrencyTest" file="/home/pallavise/GULP/new_test/tests/CurrencyTest.php" line="72" assertions="1" time="0.002446"/>
+      <testcase name="testCurrencyCodeCanBeRetrieved" class="SebastianBergmann\Money\CurrencyTest" file="/home/pallavise/GULP/new_test/tests/CurrencyTest.php" line="81" assertions="1" time="0.001433"/>
+      <testcase name="testDefaultFractionDigitsCanBeRetrieved" class="SebastianBergmann\Money\CurrencyTest" file="/home/pallavise/GULP/new_test/tests/CurrencyTest.php" line="90" assertions="1" time="0.001347"/>
+      <testcase name="testDisplayNameCanBeRetrieved" class="SebastianBergmann\Money\CurrencyTest" file="/home/pallavise/GULP/new_test/tests/CurrencyTest.php" line="99" assertions="1" time="0.001511"/>
+      <testcase name="testNumericCodeCanBeRetrieved" class="SebastianBergmann\Money\CurrencyTest" file="/home/pallavise/GULP/new_test/tests/CurrencyTest.php" line="108" assertions="1" time="0.001451"/>
+      <testcase name="testSubUnitCanBeRetrieved" class="SebastianBergmann\Money\CurrencyTest" file="/home/pallavise/GULP/new_test/tests/CurrencyTest.php" line="117" assertions="1" time="0.001427"/>
+    </testsuite>
+    <testsuite name="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" tests="24" assertions="43" failures="0" errors="0" time="0.120512">
+      <testcase name="testExceptionIsRaisedForInvalidConstructorArguments" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="52" assertions="1" time="0.003660"/>
+      <testcase name="testObjectCanBeConstructedForValidConstructorArguments" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="61" assertions="1" time="0.001639"/>
+      <testcase name="testAmountCanBeRetrieved" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="74" assertions="1" time="0.001403"/>
+      <testcase name="testCurrencyCanBeRetrieved" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="84" assertions="1" time="0.015136"/>
+      <testcase name="testAnotherMoneyObjectWithSameCurrencyCanBeAdded" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="99" assertions="3" time="0.002587"/>
+      <testcase name="testExceptionIsThrownForOverflowingAddition" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="121" assertions="1" time="0.003264"/>
+      <testcase name="testExceptionIsRaisedForIntegerOverflow" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="135" assertions="1" time="0.002146"/>
+      <testcase name="testExceptionIsRaisedWhenMoneyObjectWithDifferentCurrencyIsAdded" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="150" assertions="1" time="0.002983"/>
+      <testcase name="testAnotherMoneyObjectWithSameCurrencyCanBeSubtracted" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="168" assertions="3" time="0.002331"/>
+      <testcase name="testExceptionIsThrownForOverflowingSubtraction" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="190" assertions="1" time="0.002272"/>
+      <testcase name="testExceptionIsRaisedWhenMoneyObjectWithDifferentCurrencyIsSubtracted" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="206" assertions="1" time="0.002153"/>
+      <testcase name="testCanBeNegated" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="221" assertions="2" time="0.001844"/>
+      <testcase name="testCanBeMultipliedByAFactor" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="239" assertions="2" time="0.002142"/>
+      <testcase name="testExceptionIsRaisedWhenMultipliedUsingInvalidRoundingMode" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="254" assertions="1" time="0.002075"/>
+      <testcase name="testCanBeAllocatedToNumberOfTargets" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="267" assertions="1" time="0.040995"/>
+      <testcase name="testExceptionIsRaisedWhenTryingToAllocateToInvalidNumberOfTargets" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="295" assertions="1" time="0.001963"/>
+      <testcase name="testCanBeAllocatedByRatios" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="310" assertions="1" time="0.010079"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="332" assertions="3" time="0.002492"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency2" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="352" assertions="2" time="0.003611"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency3" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="371" assertions="2" time="0.002274"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency4" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="390" assertions="4" time="0.003315"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency5" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="413" assertions="4" time="0.003944"/>
+      <testcase name="testCanBeComparedToAnotherMoneyObjectWithSameCurrency6" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="437" assertions="4" time="0.004005"/>
+      <testcase name="testExceptionIsRaisedWhenComparedToMoneyObjectWithDifferentCurrency" class="SebastianBergmann\Money\MoneyTest" file="/home/pallavise/GULP/new_test/tests/MoneyTest.php" line="457" assertions="1" time="0.002199"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
